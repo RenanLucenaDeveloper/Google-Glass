@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav#menu{
+    border-radius: 5px;
+}
+
+nav#menu ul{
+    list-style: none;
+    background-color: #625ad8;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-left: -128px;
+}
+
+nav#menu ul li a{
+    background-color: #625ad8;
+    color: #96bff5;
+    font-family: 'Rubik', sans-serif;
+    display: block;
+    padding: 14px 16px;
+    transition: background-color 1s;
+}
+
+nav#menu ul li a:hover{
+    background-color: #4237da;
+}
+
+nav#menu ul li{
+    display: inline;
+    float: right;
+    border-left: 1px solid #96bff5;
+}
+
+nav#menu ul li#logozinha{
+    float: left;
+}
